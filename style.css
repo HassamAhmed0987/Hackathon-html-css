@@ -31,9 +31,9 @@ body a{
     overflow: hidden;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-    .brandlogo{
-        width: 50px;
+@media (max-width: 768px) {
+    .brandlogo img {
+        width: 100px;
     }
     
 }

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F6F4;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardcolor{
+    background-color: #F9E6D0;
+}
+.card2color{
+    background-color: #00373E;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.herocontainer{
+    background-color: #F9E6D0;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .brandlogo{
+        width: 50px;
+    }
+    
+}
